@@ -1,0 +1,19 @@
+schema {
+  query: Query
+  # mutation: Mutation
+}
+type Query {
+  viewer: Viewer
+}
+type Viewer {
+  name: String
+  countries: [Country]
+}
+type Country {
+  id: ID!
+  label: String
+  population: Int
+}
+
+# type Mutation {
+# }

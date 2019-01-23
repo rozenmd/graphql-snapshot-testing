@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the snapshot matches 1`] = `
+Object {
+  "data": Object {
+    "viewer": Object {
+      "countries": Array [
+        Object {
+          "name": "United States of America",
+        },
+        Object {
+          "name": "Australia",
+        },
+      ],
+    },
+  },
+}
+`;
